@@ -1,0 +1,33 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.logo{
+    color: white;
+}
+.NavbarItems{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+}
+.NavbarItems a{
+    text-decoration: none;
+    color: rgb(235, 221, 221);
+    font-size: 18px;
+}
+.button{
+    color: rgb(145, 139, 139);
+    background-color: rgb(48, 108, 238);
+    padding: 0.6rem 1.0rem;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
