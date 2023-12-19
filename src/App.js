@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Companies from './components/companies/Companies';
 import Residencies from './components/residencies/Residencies';
-import Value from './components/value/Value';
+// import Value from './components/value/Value';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
   </div>   {/*  first child element of the app.js */}
   <Companies />
   <Residencies />
-  <Value />
+  {/* <Value /> */}
     </div>
   );
 }
