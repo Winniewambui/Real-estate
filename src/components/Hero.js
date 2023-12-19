@@ -3,6 +3,7 @@ import './HeroStyles.css';
 import realestatehouse from '../assets/realestatehouse.png';
 import { FaLocationDot } from 'react-icons/fa6';
 
+
 const Hero = () => {
   const [premiumProductsCount, setPremiumProductsCount] = useState(8800);
   const [happyCustomersCount, setHappyCustomersCount] = useState(1950);
