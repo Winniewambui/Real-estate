@@ -6,9 +6,9 @@ import Data from '../../utilis/slider.json'
 import r1 from '../../assets/r1.png'
 import r2 from '../../assets/r2.png'
 import r3 from '../../assets/r3.png'
- import { FaAngleLeft } from "react-icons/fa";
- import { FaAngleRight } from "react-icons/fa";
+//  import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
  import { sliderSettings } from '../../utilis/common'
+ import SliderButtons from './SliderButtons';
 
 const Residencies = () => {
   const images = {r1, r2, r3}
@@ -16,21 +16,17 @@ const Residencies = () => {
     <section className='Residencies-wrapper'>
     <div className='Residencies-container'>
     
-<div className='R-Header'>
+{/* <div className='R-Header'> */}
 <div className='r-header'>
   <span className='orangeText'>best choices</span>
   <span className='primayText'>popular Residencies</span>
 </div>
-  <div className='swiperbtns'>
-  <FaAngleLeft className='leftBtn'/>    
-  <FaAngleRight className='rightBtn'/>
-    </div>
-</div>
+{/* // </div> */}
 
 <Swiper {...sliderSettings}>
-{/* <div className='r-cards-container'> */}
-  {
-    Data.map((card, index) => (
+<SliderButtons />
+
+  {Data.map((card, index) => (
       <SwiperSlide key={index}>
         <div className='r-card'>
         <img src={images[card.image]} alt='home' className='r-card-img'/>
@@ -46,7 +42,6 @@ const Residencies = () => {
       </SwiperSlide>
     ))
   }
-  {/* </div> */}
  </Swiper>
     </div>
     </section>
@@ -54,3 +49,10 @@ const Residencies = () => {
 }
 
 export default Residencies;
+
+
+
+
+
+
+
