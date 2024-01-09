@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Companies from './components/companies/Companies';
 import Residencies from './components/residencies/Residencies';
-// import Value from './components/value/Value';
 
 function App() {
   return (
