@@ -12,7 +12,7 @@ const Navbar = () => {
             <a href={item.url} className={item.cName}>{item.title}</a></li>
           ))}
           <button className='button'>
-          <a href='#'>Contact</a>
+          <a href="#">Contact</a>
           </button>
         </ul>
       </section>
